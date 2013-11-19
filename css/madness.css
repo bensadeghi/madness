@@ -1,0 +1,25 @@
+@font-face {font-family:'openings'; src:url('../fonts/MELBYLON.TTF') format('truetype');}
+
+html {height:100%; overflow-x:hidden; overflow-y:hidden; background: -moz-linear-gradient(#555555,#000000); background: -webkit-linear-gradient(#555555,#000000); background: -o-linear-gradient(#555555,#000000); background: -ms-linear-gradient(#555555,#000000); background: linear-gradient(#555555,#000000);}
+
+#preloader {height:100%; width:100%; bottom:0px; left:0px; background: #111111 url(../images/layers/progress_bar.gif) center center no-repeat; z-index:9999; position:fixed; color:white; text-align:center; font-size:150px; font-family:'openings',Tahoma,Geneva,sans-serif;}
+
+#layer1 {height: 424px; width: 3000px; position: absolute; z-index: 2; bottom: 450px; left: 0px; background: url(../images/layers/3000c.png) bottom left no-repeat; }
+#layer2 {height: 650px; width: 6000px; position: absolute; z-index: 3; bottom: 0px; left: 0px; background: url(../images/layers/6000.png) bottom left no-repeat; }
+#layer3 {height: 500px; width: 9000px; position: absolute; z-index: 4; bottom: 0px; left: 0px; background: url(../images/layers/9000.png) top left no-repeat; }
+#layer4 {height: 172px; width: 11998px; position: absolute; z-index: 7; bottom: 0px; left: 0px; background: url(../images/layers/12000.png) bottom left no-repeat; pointer-events: none;}
+ 
+#moveL {height: 100%; width: 4%; position: fixed; z-index: 9910; left: 0px;}
+#moveR {height: 100%; width: 4%; position: fixed; z-index: 9910; right: 0px;}
+#scrollL {left: 0px; top:5px;}
+#scrollR {right: 0px; top:5px;}
+
+#arrL {left: 150px;}
+#stop {left: 200px;}
+#arrR {left: 250px;}
+
+.arr {position: fixed; z-index: 10; top:5px; background: transparent;}
+
+.left {-moz-transform: scaleX(-1);-webkit-transform: scaleX(-1);-o-transform: scaleX(-1);-ms-transform: scaleX(-1);transform: scaleX(-1);filter: fliph;}
+
+.girl {position:absolute; z-index:5;}
